@@ -12,7 +12,7 @@ public class PairPriceMapper implements RequestDtoMapper<PairPrice, ApiPairPrice
         PairPrice pairPrice = new PairPrice();
         pairPrice.setCurr1(apiPairPriceDto.getCurr1());
         pairPrice.setCurr2(apiPairPriceDto.getCurr2());
-        pairPrice.setPrice(apiPairPriceDto.getPrice());
+        pairPrice.setPrice(apiPairPriceDto.getLprice());
         return pairPrice;
     }
 }

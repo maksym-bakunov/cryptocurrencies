@@ -1,8 +1,14 @@
 package com.example.cryptocurrencies.dto.response;
 
-@D
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class ApiPairPriceDto {
     private String curr1;
     private String curr2;
-    private Double price;
+    private Double lprice;
 }
